@@ -1,0 +1,170 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: about_vit
+  examples: |
+    - what is vit?
+    - tell me something about vit.
+    - need info about vit.
+
+
+- intent: campus_vit
+  examples: |
+    - campus location
+    - where is vit?
+    - how many campus are there?
+
+- intent: programmes_offered
+  examples: |
+    - what are the programmes offered at VIT?
+    - college programmes
+    - courses offered
+    - what all is taught? 
+
+- intent: find_contact_general
+  examples: |
+    - I want contact info
+    - Contacts
+    - Who to contact
+
+- intent: contact_admin
+  examples: |
+    - Admissions Office
+    - Admin
+    - Administration
+
+- intent: contact_placement 
+  examples: |
+    - Placement Cell
+    - Placement & Training
+
+- intent: contact_relation
+  examples: |
+    - International Relations
+
+- intent: library
+  examples: |
+    - E-library
+    - Link to online resources
+    - E-gateway link
+    - Need E-resources
+
+- intent: schools_list
+  examples: |
+    - What are schools at VIT Chennai?
+    - Departments
+
+- intent: thanks
+  examples: |
+    - Thank you
+    - Appreciate the help
+    - That was very helpful
+    
+- intent: apply_admission
+  examples: |
+    - How can I apply for admission?
+    - How to get into VIT?
+    - admission test info
+    - VITEEE
+    - VIT admission
+
+- intent: fee_structure
+  examples: |
+    - Can I get the Fee Structure?
+    - Fee structure
+    - How much does it cost to study at VIT?
+    - Fees for VIT 
+    
+
+
+    

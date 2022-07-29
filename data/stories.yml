@@ -1,0 +1,58 @@
+version: "2.0"
+
+stories:
+- story: beginning of flow
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: help path 1
+  steps:
+  - intent: about_vit
+  - action: utter_vit
+
+- story: help path 2
+  steps:
+  - intent: campus_vit
+  - action: utter_campus
+
+- story: help path 3
+  steps:
+  - intent: programmes_offered
+  - action: utter_programmes 
+
+- story: help path 4
+  steps:
+  - intent: library
+  - action: utter_library_link
+
+- story: help path 5
+  steps:
+  - intent: schools_list
+  - action: utter_school
+
+- story: help path 6
+  steps:
+  - intent: find_contact_general
+  - action: utter_contact_who
+  - intent: contact_admin
+  - action: utter_admin_contact
+  - intent: contact_placement
+  - action: utter_placement_contact
+  - intent: contact_relation
+  - action: utter_relation_contact
+
+- story: help path 7
+  steps:
+  - intent: apply_admission
+  - action: utter_apply_info
+
+- story: help path 8
+  steps:
+  - intent: fee_structure
+  - action: utter_fee_structure
+
+- story: end of flow
+  steps:
+  - intent: thanks
+  - action: utter_welcome
